@@ -3,6 +3,7 @@
 # Path to the tex file
 TEX_PATH="Hello.tex"
 PDF_NAME="generated"
+# Note that GITHUB_API_KEY should also be specified through Travis
 
 echo "Create new latex build\n"
 
