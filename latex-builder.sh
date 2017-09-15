@@ -8,7 +8,7 @@ PDF_NAME="generated"
 echo "Create new latex build\n"
 
 mkdir _latex_build
-pdflatex -output-directory _build -jobname=generated ${TEX_PATH}
+pdflatex -output-directory _latex_build -jobname=generated ${TEX_PATH}
 
 echo "Create New Release\n"
 
