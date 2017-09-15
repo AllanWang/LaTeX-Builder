@@ -1,0 +1,6 @@
+before_install:
+- sudo apt-get update
+- sudo apt-get install texlive-latex-extra
+script:
+- chmod +x ./latex-builder; ./latex-builder.sh
+sudo: true
